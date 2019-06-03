@@ -1,0 +1,296 @@
+@import url(../bootstrap-4.1.3/css/bootstrap.css);
+
+@font-face {
+	font-family: IRANSansDNF;
+	src: url(../dist/fonts/iransans/IRANSansDNFaNum.ttf);
+	src: url(../dist/fonts/iransans/IRANSansDNFaNum.woff2);
+}
+
+body {
+	font-family: IRANSansDNF;
+	/*background-image: url("/img/bg1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+
+#bdy {
+	background: url("/img/background.jpg");
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sz-9 {
+	font-size: .9rem !important;
+}
+
+.sz-8 {
+	font-size: .8rem !important;
+}
+
+.sz-7 {
+	font-size: .7rem !important;
+}
+
+.sz-6 {
+	font-size: .6rem !important;
+}
+
+.sz-5 {
+	font-size: .5rem !important;
+}
+
+.sz-15 {
+	font-size: 1.5rem !important;
+}
+
+.sz-1 {
+	font-size: 1rem !important;
+}
+
+.fa-10x {
+	font-size: 10em !important;
+}
+
+.active {
+	color: #dc3545 !important;
+}
+
+a {
+	text-decoration: unset !important;
+
+	&:hover :focus {
+		text-decoration: unset !important;
+		border: unset !important;
+	}
+}
+
+.bg-black-op-8 {
+	background-color: rgb(0, 0, 0, 0.8) !important;
+}
+
+z nav > div > div > div > a {
+	padding-left: 4.333333%;
+	/* because of brand name being in center of the nav */
+}
+
+.listStyle-none {
+	list-style: none !important;
+}
+
+.border-2 {
+	border: 2px solid black;
+}
+
+.border-none {
+	border: none;
+}
+
+.border-bottom-black {
+	border-bottom: 1px solid #343a40 !important;
+}
+
+.border-bottom-white {
+	border-bottom: 1px solid white !important;
+}
+
+.border-1 {
+	border: 1px solid black;
+}
+
+.border-b-1 {
+	border-bottom: 1px solid #343a40 !important;
+}
+
+.border-t-1 {
+	border-top: 1px solid #212529;
+}
+
+.border-2-red {
+	border: 1px solid #dc3545;
+}
+
+.border-2-green {
+	border: 1px solid #28a745;
+}
+
+.border-dashed-red {
+	border: 1px dashed red;
+}
+
+.border-dashed-black {
+	border-bottom: 1px dashed black;
+}
+
+.border-dashed-blue {
+	border-bottom: 1px dashed #007bff;
+}
+
+div > div > div > div > p {
+	font-size: 0.7rem !important;
+}
+
+.wrap-solve {
+	white-space: inherit;
+}
+
+.line-height-15 {
+	line-height: 1.5rem !important;
+}
+
+@media (min-width: 300px) {
+	.wrap-solve {
+		white-space: nowrap !important;
+	}
+}
+
+.cursor-pointer {
+	cursor: pointer !important;
+}
+
+li > a {
+	color: #343a40
+}
+
+.rotate-tag {
+	-ms-transform: rotate(270deg);
+	/* IE 9 */
+	-webkit-transform: rotate(270deg);
+	/* Safari 3-8 */
+	transform: rotate(270deg);
+}
+
+.mx-15 {
+	margin-left: 14%;
+	margin-right: 15%;
+}
+
+.opacity-4 {
+	opacity: 0.4 !important;
+}
+
+/*for show more button */
+
+.hideContent {
+	overflow: hidden;
+	line-height: 1rem;
+	height: 2rem;
+	transition: height 0.7s ease;
+}
+
+.showContent {
+	line-height: 1rem;
+	height: auto;
+}
+
+/*end for show more button*/
+
+/*overwriting the bootstrap 4 carousel css*/
+
+.carousel-indicators {
+	bottom: -30px;
+}
+
+.carousel-indicators .active {
+	background-color: #6c757d;
+}
+
+.carousel-indicators li {
+	border: 1px solid #6c757d;
+}
+
+.carousel-control-prev {
+	left: -10px;
+}
+
+.carousel-control-next {
+	right: -10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+	background-color: #6c757d;
+}
+
+.placeholder-white::placeholder {
+	color: white;
+}
+
+.placeholder-black::placeholder {
+	color: black;
+}
+
+/*end overwriting the bootstrap 4 carousel css*/
+
+/*override bootstrap 4 class*/
+.form-control:focus {
+	color: #495057;
+	background-color: #fff;
+	border-color: #dc3545;
+	outline: 0;
+	box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+/*end override bootstrap 4 class*/
+
+/*slideshow style*/
+.slideshow {
+	display: none
+}
+
+.slideshow-badge {
+	height: 4px;
+	width: 20px;
+	padding: 0;
+	cursor: pointer;
+	/*border-radius: 50%;*/
+	display: inline-block;
+}
+
+.arrow:hover {
+	font-size: 2.5rem !important;
+	transition: font-size 0.5s ease-in-out;
+}
+
+.arrow:not( :hover) {
+	font-size: 1.8rem !important;
+	transition: font-size 0.5s ease-in-out;
+}
+
+/*end slideshow style*/
+
+/* start drop down */
+.dropdown {
+	position: unset !important;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: rgb(255, 255, 255, 1);
+	z-index: 1000;
+	left: 0;
+	right: 0;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	/*background-color: #f8f9fa;*/
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* end drop down */

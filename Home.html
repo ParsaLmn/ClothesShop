@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="./Style/Style.css">
+	<link rel="stylesheet" href="./Style/Color.css">
+	<link rel="stylesheet" href="./Style/shop.css">
+	<link href="./dist/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<script src="./Jquery-3.3.1/jquery-3.3.1.js"></script>
+	<script src="./bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
+	<script src="./bootstrap-4.1.3/js/bootstrap.js"></script>
+</head>
+
+<body dir="rtl" class="p-0">
+	<div>
+		<!-- start header -->
+		<div>
+			<!-- start navbar -->
+			<div style="position: absolute;background-color: rgb(0,0,0,0.2)" class="text-light w-100">
+				<div class="text-center py-2">
+					<a href="Home.html" title="Logo"><img src="img/logo2.png" width="100px"></a>
+				</div>
+				<div id="topnav" class="d-flex flex-column justify-content-end" style="height: 50px;">
+					<nav class="navbar-expand-sm p-2">
+						<div class="container">
+							<div class="text-3 pt-1 float-right d-flex border-none border-bottom-white">
+								<div class="fa fa-search"></div>
+								<input class="border-none bg-transparent pr-2 placeholder-white" placeholder="جستجو کنید...">
+							</div>
+							<div class="d-flex float-left ">
+								<a class="pt-1 text-3 hover-text-1 cursor-pointer" data-toggle="modal" data-target="#myModal">ورود/</a>
+								<a class="pt-1 text-3 hover-text-1 cursor-pointer" data-toggle="modal" data-target="#myModal2">ثبت نام</a>
+								<a href="" class="p-1 ml-2 mr-4 text-3 hover-text-1 border-none">
+									سبد خرید
+									<i class="text-3 fa fa-shopping-cart"></i></a>
+							</div>
+						</div>
+					</nav>
+				</div>
+				<div class="py-3">
+					<div class="d-flex justify-content-center">
+						<div class="mx-3">
+							<a class="text-3 hover-text-1 cursor-pointer">
+								مردانه
+							</a>
+						</div>
+						<div class="mx-3">
+							<a class="text-3 hover-text-1 cursor-pointer">
+								زنانه
+							</a>
+						</div>
+						<div class="mx-3">
+							<a class="text-3 hover-text-1 cursor-pointer">
+								بچگانه
+							</a>
+						</div>
+					</div>
+				</div>
+				<hr id="hr" class="container opacity-4 bg-light">
+				<div class="w-100 py-3">
+					<div class="d-flex justify-content-center sz-8">
+						<div class="mx-3">
+							<a class="text-3 hover-text-1 cursor-pointer">
+								جدید ترین ها
+							</a>
+						</div>
+						<div class="mx-3">
+							<a class="text-3 hover-text-1 cursor-pointer">
+								تک سایز
+							</a>
+						</div>
+						<div class="mx-3">
+							<div class="dropdown">
+								<button class="bg-transparent border-none text-3 hover-text-1 cursor-pointer">لباس</button>
+								<div class="dropdown-content pt-3 bg-transparent">
+									<div class="p-5 bg-black-op-8">
+										<div class="container d-flex justify-content-around">
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">لباس مردانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">تیشرت</a>
+												<a class="hover-text-1 text-3" href="www.google.com">پیراهن</a>
+												<a class="hover-text-1 text-3" href="www.google.com">شلوار</a>
+												<a class="hover-text-1 text-3" href="www.google.com">کت</a>
+												<a class="hover-text-1 text-3" href="www.google.com">لباس ورزشی</a>
+											</div>
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">لباس زنانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">پیراهن</a>
+												<a class="hover-text-1 text-3" href="www.google.com">لباس ورزشی</a>
+												<a class="hover-text-1 text-3" href="www.google.com">تیشرت</a>
+												<a class="hover-text-1 text-3" href="www.google.com">سویشرت</a>
+												<a class="hover-text-1 text-3" href="www.google.com">پالتو</a>
+												<a class="hover-text-1 text-3" href="www.google.com">بارانی</a>
+											</div>
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">لباس بچگانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">لباس پسرانه</a>
+												<a class="hover-text-1 text-3" href="www.google.com">لباس دخترانه</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mx-3">
+							<div class="dropdown">
+								<button class="bg-transparent border-none text-3 hover-text-1 cursor-pointer">کفش</button>
+								<div class="dropdown-content pt-3 bg-transparent">
+									<div class="p-5 bg-black-op-8">
+										<div class="container d-flex justify-content-around">
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">کفش مردانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">کفش رسمی</a>
+												<a class="hover-text-1 text-3" href="www.google.com">کفش ورزشی</a>
+												<a class="hover-text-1 text-3" href="www.google.com">صندل</a>
+											</div>
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">کفش زنانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">بوت</a>
+												<a class="hover-text-1 text-3" href="www.google.com">ورزشی</a>
+												<a class="hover-text-1 text-3" href="www.google.com">کفش پاشنه دار</a>
+												<a class="hover-text-1 text-3" href="www.google.com">صندل</a>
+											</div>
+											<div class="col-4 text-center flex-column align-items-center d-flex">
+												<b class="text-light sz-1">کفش بچگانه</b>
+												<a class="hover-text-1 text-3" href="www.google.com">کفش پسرانه</a>
+												<a class="hover-text-1 text-3" href="www.google.com">کفش دخترانه</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- end navbar -->
+
+			<!-- start slideshow -->
+			<div id="slideshow" style="">
+				<img class="slideshow w-100 h-100" src="./img/background.jpg">
+				<img class="slideshow w-100 h-100" src="./img/bg6.jpg">
+				<img class="slideshow w-100 h-100" src="./img/bg4.jpg">
+				<div class="text-center p-4 sz-15 text-3 w-100" style="position: absolute;top: 90%">
+					<div class="d-none float-left cursor-pointer arrow hover-text-1 text-light" onclick="plusDivs();clicked();">&#10095;</div>
+					<div class="d-none float-right cursor-pointer arrow hover-text-1 text-light" onclick="minessDivs();clicked();">&#10094;</div>
+					<span class="slideshow-badge demo border w3-transparent" onclick="currentDiv(1)"></span>
+					<span class="slideshow-badge demo border w3-transparent" onclick="currentDiv(2)"></span>
+					<span class="slideshow-badge demo border " onclick="currentDiv(3)"></span>
+				</div>
+			</div>
+			<!-- end slideshow -->
+		</div>
+		<!-- end header -->
+		<!-- start body -->
+		<div>
+			<div class="py-5">
+				<h3 class="text-center pb-5">برترین برند ها در شاپیفای</h3>
+				<div class="row text-center">
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/LC.png"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/Mango.png"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/Vimana.webp"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/zagros.webp"></div>
+				</div>
+				<div class="row text-center pt-5">
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/2/home&you.png"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/2/only.png"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/2/webp.webp"></div>
+					<div class="cursor-pointer col-6 col-md-3"><img src="./img/Brands/2/ziboo.png"></div>
+				</div>
+			</div>
+		</div>
+		<!-- end body -->
+		<!-- start footer -->
+		<div class="">
+			<div class="bg-light">
+				<div class="row pt-5">
+					<div class="d-flex flex-column align-items-center col-12 col-md-4 p-5">
+						<div class="text-center pb-2"><strong>عضویت در خبرنامه</strong></div>
+						<label class="sz-8 py-2 wrap text-justify line-height-15">با ثبت‌نام در خبرنامه شاپیفای، اولین نفری باشید که از جدیدترین محصولات، جشنواره‌ها و فروش‌های ویژه ما مطلع می‌شوید. </label>
+						<input class="border-none border-b-1 bg-transparent pr-2 w-75" placeholder="آدرس ایمیل شما ...">
+					</div>
+					<div class="text-center line-height-15 col-12 col-md-4 p-5">
+						<div class="pb-2"><strong>اطلاعات شاپیفای</strong></div>
+						<div class="hover-text-1 sz-8 cursor-pointer">ارتباط باما</div>
+						<div class="hover-text-1 sz-8 cursor-pointer">درباره ما</div>
+						<div class="sz-8">
+							<label>شماره تماس : 09013298856</label>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 text-center p-5"><img src="img/etemad.png"></div>
+				</div>
+				<hr class="container">
+				<div class="d-flex justify-content-center py-2">
+					<div title="فیسبوک" class="cursor-pointer hover-text-1 px-1 mx-2 fa fa-facebook"></div>
+					<div title="توییتر" class="cursor-pointer hover-text-1 px-1 mx-2 fa fa-twitter"></div>
+					<div title="اینستاگرام" class="cursor-pointer hover-text-1 px-1 mx-2 fa fa-instagram"></div>
+					<div title="تلگرام" class="cursor-pointer hover-text-1 px-1 mx-2 fa fa-telegram"></div>
+				</div>
+				<div class="d-flex justify-content-between p-2 sz-7 row mx-3">
+					<div class="col-12 col-sm-6 text-justify">
+						کليه حقوق اين سايت متعلق به شرکت پارسا می‌باشد.</div>
+					<div class="col-12 col-md-6">Parsasite.com - 2019 © Copyright</div>
+				</div>
+			</div>
+		</div>
+		<!-- end footer -->
+	</div>
+
+	<!-- start Modal -->
+	<div>
+		<!-- Register Modal -->
+		<div class="modal fade" id="myModal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content border-dark shadow" style="background-color: rgb(256,256,256,0.9)">
+
+					<!-- Modal Header -->
+					<div class="modal-header d-flex justify-content-between px-5">
+						<div>
+							<label>ورود به شاپیفای</label>
+						</div>
+						<div class="">
+							<a class="cursor-pointer border-dashed-black sz-8" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">
+								ثبت نام در شاپیفای
+							</a>
+						</div>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body d-flex flex-column pb-5">
+						<div class="row py-3">
+							<div class="col-12 d-flex flex-column justify-content-center">
+								<div class="text-right w-50 align-self-center">
+									<label class="">شماره موبایل</label>
+								</div>
+								<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+									<div class="fa fa-user"></div>
+									<input class="border-none bg-transparent pr-2 placeholder-black" placeholder=" شماره موبایل...">
+								</div>
+							</div>
+						</div>
+						<div class="row py-3">
+							<div class="col-12 d-flex flex-column justify-content-center">
+								<div class="text-right w-50 align-self-center">
+									<label class="">رمز عبور</label>
+								</div>
+								<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+									<div class="fa fa-lock"></div>
+									<input type="password" class="border-none bg-transparent pr-2 placeholder-black" placeholder="رمز عبور...">
+								</div>
+								<div class="pt-3 text-left w-50 align-self-center">
+									<a class="sz-8 border-dashed-blue" href="#">رمز عبور خود را فراموش کرده ام</a>
+								</div>
+							</div>
+						</div>
+						<div class="row py-4">
+							<div class="col-12 d-flex justify-content-center">
+								<input class="mx-2" type="checkbox">
+								<label for="input">مرا به خاطر بسپار</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 text-center">
+								<button class="bg-3 border rounded px-4 py-2 cursor-pointer shadow">ورود به شاپیفای</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- LogIn modal -->
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content border-dark shadow" style="background-color: rgb(256,256,256,0.9)">
+
+					<!-- Modal Header -->
+					<div class="modal-header d-flex justify-content-between px-5">
+						<div>
+							<label>ثبت نام در شاپیفای</label>
+						</div>
+						<div class="">
+							<a class="cursor-pointer border-dashed-black sz-8" data-dismiss="modal" data-toggle="modal" data-target="#myModal">
+								ورود به شاپیفای
+							</a>
+						</div>
+					</div>
+
+					<!-- Modal body -->
+					<div class="modal-body d-flex flex-column pb-5">
+						<div class="row py-3">
+							<div class="col-12 d-flex flex-column justify-content-center">
+								<div class="text-right w-50 align-self-center">
+									<label class="">شماره موبایل</label>
+								</div>
+								<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+									<div class="fa fa-user"></div>
+									<input class="border-none bg-transparent pr-2 placeholder-black" placeholder=" شماره موبایل...">
+								</div>
+							</div>
+						</div>
+						<div class="row py-3">
+							<div class="col-12 d-flex flex-column justify-content-center">
+								<div class="text-right w-50 align-self-center">
+									<label class="">رمز عبور</label>
+								</div>
+								<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+									<div class="fa fa-lock"></div>
+									<input type="password" class="border-none bg-transparent pr-2 placeholder-black" placeholder="رمز عبور...">
+								</div>
+							</div>
+						</div>
+						<div class="row py-4">
+							<div class="col-12 d-flex justify-content-center">
+								<input class="mx-" type="checkbox">
+								<label for="input" class="mx-2">
+									<a href="" class="border-dashed-blue">قوانین شاپیفای</a>
+									را خوانده و موافقم.
+								</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12 text-center">
+								<button class="bg-3 border rounded px-4 py-2 cursor-pointer shadow">ثبت نام در شاپیفای</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end Modal -->
+
+
+	<script>
+		$("#slideshow").height(window.innerHeight);
+		$(window).resize(function() {
+			$("#slideshow").height(window.innerHeight);
+		});
+	</script>
+	<script>
+		var slideIndex = 1;
+		var _click = false;
+		showDivs(slideIndex);
+
+		function minessDivs() {
+
+			showDivs(slideIndex -= 1);
+		}
+
+		function plusDivs() {
+
+			showDivs(slideIndex += 1);
+		}
+
+		function clicked() {
+			_click = true;
+		}
+
+		function currentDiv(n) {
+			_click = true;
+			showDivs(slideIndex = n);
+		}
+
+		function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("slideshow");
+			var dots = document.getElementsByClassName("demo");
+			if (n > x.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = x.length
+			}
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" w3-white", "");
+			}
+			x[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " w3-white";
+			if (_click == false) {
+				setTimeout(plusDivs, 3000);
+			}
+			/*color();*/
+		}
+
+		/*function color() {
+			$("#p").text(slideIndex);
+			if (slideIndex == 2 || slideIndex == 3 || slideIndex == 1) {
+				$(".text-4").each(function() {
+					$(this).addClass("text-3");
+					$(this).removeClass("text-4");
+				});
+				$(".border-bottom-black").each(function() {
+					$(this).addClass("border-bottom-white");
+					$(this).removeClass("border-bottom-black");
+				});
+				$(".placeholder-black").each(function() {
+					$(this).addClass("placeholder-white");
+					$(this).removeClass("placeholder-black");
+				});
+				$("#hr").addClass("bg-light");
+
+			}
+			if (slideIndex == 1) {
+				$(".text-3").each(function() {
+					$(this).addClass("text-4");
+					$(this).removeClass("text-3");
+				});
+				$(".border-bottom-white").each(function() {
+					$(this).addClass("border-bottom-black");
+					$(this).removeClass("border-bottom-white");
+				});
+				$(".placeholder-white").each(function() {
+					$(this).addClass("placeholder-black");
+					$(this).removeClass("placeholder-white");
+				});
+				$("#hr").removeClass("bg-light");
+			}
+		}*/
+	</script>
+</body>
+
+</html>

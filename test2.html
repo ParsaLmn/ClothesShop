@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Home Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="./Style/Style.css">
+	<link rel="stylesheet" href="./Style/Color.css">
+	<link rel="stylesheet" href="./Style/shop.css">
+	<link href="./dist/css/font-awesome.css" rel="stylesheet" type="text/css" />
+	<script src="./Jquery-3.3.1/jquery-3.3.1.js"></script>
+	<script src="./bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
+	<script src="./bootstrap-4.1.3/js/bootstrap.js"></script>
+</head>
+
+<body class="container" dir="rtl" style="background-image: url(./img/bg1.jpg)">
+
+
+	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+		Open modal
+	</button>
+	<div class="modal fade" id="myModal">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content border-dark shadow" style="background-color: rgb(256,256,256,0.8)">
+
+				<!-- Modal Header -->
+				<div class="modal-header d-flex justify-content-between px-5">
+					<div>
+						<label>ورود به شاپیفای</label>
+					</div>
+					<div class="">
+						<a class="text-4 cursor-pointer border-dashed-black sz-8" data-dismiss="modal" data-toggle="modal" data-target="#myModal2">
+							ثبت نام در شاپیفای
+						</a>
+					</div>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body d-flex flex-column pb-5">
+					<div class="row py-3">
+						<div class="col-12 d-flex flex-column justify-content-center">
+							<div class="text-right w-50 align-self-center">
+								<label class="">ایمیل یا شماره موبایل</label>
+							</div>
+							<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+								<div class="fa fa-user"></div>
+								<input class="border-none bg-transparent pr-2 placeholder-black" placeholder=" ایمیل یا شماره موبایل...">
+							</div>
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col-12 d-flex flex-column justify-content-center">
+							<div class="text-right w-50 align-self-center">
+								<label class="">رمز عبور</label>
+							</div>
+							<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+								<div class="fa fa-lock"></div>
+								<input type="password" class="border-none bg-transparent pr-2 placeholder-black" placeholder="رمز عبور...">
+							</div>
+							<div class="pt-3 text-left w-50 align-self-center">
+								<a class="sz-8 border-dashed-blue" href="#">رمز عبور خود را فراموش کرده ام</a>
+							</div>
+						</div>
+					</div>
+					<div class="row py-4">
+						<div class="col-12 d-flex justify-content-center">
+							<input class="mx-2" type="checkbox">
+							<label for="input">مرا به خاطر بسپار</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							<button class="bg-3 border rounded px-4 py-2 cursor-pointer shadow">ورود به شاپیفای</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="modal fade" id="myModal2">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content border-dark shadow" style="background-color: rgb(256,256,256,0.8)">
+
+				<!-- Modal Header -->
+				<div class="modal-header d-flex justify-content-between px-5">
+					<div>
+						<label>ثبت نام در شاپیفای</label>
+					</div>
+					<div class="">
+						<a class="text-4 cursor-pointer border-dashed-black sz-8" data-dismiss="modal" data-toggle="modal" data-target="#myModal">
+							ورود به شاپیفای
+						</a>
+					</div>
+				</div>
+
+				<!-- Modal body -->
+				<div class="modal-body d-flex flex-column pb-5">
+					<div class="row py-3">
+						<div class="col-12 d-flex flex-column justify-content-center">
+							<div class="text-right w-50 align-self-center">
+								<label class="">ایمیل یا شماره موبایل</label>
+							</div>
+							<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+								<div class="fa fa-user"></div>
+								<input class="border-none bg-transparent pr-2 placeholder-black" placeholder=" ایمیل یا شماره موبایل...">
+							</div>
+						</div>
+					</div>
+					<div class="row py-3">
+						<div class="col-12 d-flex flex-column justify-content-center">
+							<div class="text-right w-50 align-self-center">
+								<label class="">رمز عبور</label>
+							</div>
+							<div class="text-4 pt-1 d-flex border-none border-bottom-black
+							align-items-center align-self-center w-50">
+								<div class="fa fa-lock"></div>
+								<input type="password" class="border-none bg-transparent pr-2 placeholder-black" placeholder="رمز عبور...">
+							</div>
+						</div>
+					</div>
+					<div class="row py-4">
+						<div class="col-12 d-flex justify-content-center">
+							<input class="mx-" type="checkbox">
+							<label for="input" class="mx-2">
+								<a href="" class="border-dashed-blue">قوانین شاپیفای</a>
+								را خوانده و موافقم.
+							</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 text-center">
+							<button class="bg-3 border rounded px-4 py-2 cursor-pointer shadow">ثبت نام در شاپیفای</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
