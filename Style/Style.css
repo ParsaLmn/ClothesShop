@@ -79,6 +79,10 @@ a {
 	background-color: rgb(0, 0, 0, 0.8) !important;
 }
 
+.bg-white{
+	background-color: white;
+}
+
 z nav > div > div > div > a {
 	padding-left: 4.333333%;
 	/* because of brand name being in center of the nav */
