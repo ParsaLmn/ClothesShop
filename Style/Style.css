@@ -11,20 +11,25 @@ body {
 	/*background-image: url("/img/bg1.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
+	padding: 0 !important;
 }
 
+ul{
+	list-style: none;
+}
+
+/*
 #bdy {
 	background: url("/img/background.jpg");
-	/* Full height */
 	height: 100%;
 
-	/* Create the parallax scrolling effect */
+	 Create the parallax scrolling effect 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+*/
 .sz-9 {
 	font-size: .9rem !important;
 }
