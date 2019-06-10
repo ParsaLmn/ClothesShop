@@ -18,6 +18,11 @@ ul{
 	list-style: none;
 }
 
+.table-title{
+	flex: 0 0 180px;
+	font-weight: 1000;
+}
+
 /*
 #bdy {
 	background: url("/img/background.jpg");
@@ -58,12 +63,20 @@ ul{
 	font-size: 1rem !important;
 }
 
+.sz-2 {
+	font-size: 2rem !important;
+}
+
+.sz-3 {
+	font-size: 3rem !important;
+}
+
 .fa-10x {
 	font-size: 10em !important;
 }
 
-.active {
-	color: #dc3545 !important;
+.myactive {
+	color: black!important;
 }
 
 a {
@@ -106,6 +119,10 @@ z nav > div > div > div > a {
 
 .border-bottom-white {
 	border-bottom: 1px solid white !important;
+}
+
+.border-bottom-danger {
+	border-bottom: 1px solid #dc3545 !important;
 }
 
 .border-1 {
