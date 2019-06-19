@@ -13,6 +13,7 @@
 	<script src="./jquery-3.4.1/jquery-3.4.1.js"></script>
 	<script src="./bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
 	<script src="./bootstrap-4.1.3/js/bootstrap.js"></script>
+	<link rel="icon" href="./img/icon.png">
 </head>
 
 <body dir="rtl">
@@ -77,6 +78,10 @@
 									<label for="input">test</label>
 								</li>
 							</ul>
+						</li>
+						<li>
+						 a
+							 <div id="test-slider"></div>
 						</li>
 					</ul>
 				</div>
@@ -179,6 +184,24 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		
+  var slider = document.getElementById('test-slider');
+  noUiSlider.create(slider, {
+   start: [20, 80],
+   connect: true,
+   step: 1,
+   orientation: 'horizontal', // 'horizontal' or 'vertical'
+   range: {
+     'min': 0,
+     'max': 100
+   },
+   format: wNumb({
+     decimals: 0
+   })
+  });
+        
+	</script>
 </body>
 
 </html>

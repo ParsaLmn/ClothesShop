@@ -14,13 +14,19 @@ body {
 	padding: 0 !important;
 }
 
-ul{
+ul {
 	list-style: none;
 }
 
-.table-title{
+.table-title {
 	flex: 0 0 180px;
 	font-weight: 1000;
+}
+
+.box-shadow:hover {
+	-webkit-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
 /*
@@ -76,7 +82,7 @@ ul{
 }
 
 .myactive {
-	color: black!important;
+	color: black !important;
 }
 
 a {
@@ -92,7 +98,7 @@ a {
 	background-color: rgb(0, 0, 0, 0.8) !important;
 }
 
-.bg-white{
+.bg-white {
 	background-color: white;
 }
 
