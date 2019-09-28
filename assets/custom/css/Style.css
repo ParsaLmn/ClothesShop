@@ -1,9 +1,18 @@
-@import url(../bootstrap-4.1.3/css/bootstrap.css);
+/*----------import part----------*/
+
+@import url(../../bootstrap-4.1.3/css/bootstrap.css);
+/*importing bootstrap css*/
+@import url(./Color.css);
+/*importing color css*/
+
+/*end import part*/
+
+/*----------custom style part----------*/
 
 @font-face {
 	font-family: IRANSansDNF;
-	src: url(../dist/fonts/iransans/IRANSansDNFaNum.ttf);
-	src: url(../dist/fonts/iransans/IRANSansDNFaNum.woff2);
+	src: url(../../fonts/iransans/IRANSansDNFaNum.ttf);
+	src: url(../../fonts/iransans/IRANSansDNFaNum.woff2);
 }
 
 body {
@@ -29,18 +38,6 @@ ul {
 box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-/*
-#bdy {
-	background: url("/img/background.jpg");
-	height: 100%;
-
-	 Create the parallax scrolling effect 
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-*/
 .sz-9 {
 	font-size: .9rem !important;
 }
@@ -205,6 +202,8 @@ li > a {
 .opacity-4 {
 	opacity: 0.4 !important;
 }
+
+/*----------end custom style part----------*/
 
 /*for show more button */
 
